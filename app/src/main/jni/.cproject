@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.217998020.169040031">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.217998020.169040031" moduleId="org.eclipse.cdt.core.settings" name="GOODOCOM">
+				<macros>
+					<stringMacro name="VERSION" type="VALUE_TEXT" value="2.3.4"/>
+				</macros>
+				<externalSettings>
+					<externalSetting/>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="GOODOCOM" id="0.217998020.169040031" name="GOODOCOM" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.217998020.169040031." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1176281524" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1176281524.462513326" name=""/>
+							<builder arguments="" buildPath="${workspace_loc:${Path}}" cleanBuildTarget="clean" command="ndk-build.cmd" enableCleanBuild="true" id="com.android.builder.459849973" incrementalBuildTarget=" -j4" keepEnvironmentInBuildfile="false" name="Android Builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name=""/>
+								</outputEntries>
+							</builder>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.663920781" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1646541820" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.577620995" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__LINUX__=1"/>
+									<listOptionValue builtIn="false" value="__linux__=1"/>
+									<listOptionValue builtIn="false" value="__GNUC__=4"/>
+									<listOptionValue builtIn="false" value="__GNUC_MINOR__=8"/>
+									<listOptionValue builtIn="false" value="BT_CONF_PATH=&quot;/data/goc/bt_conf.ini&quot;"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_A2DP_AUDIOTRACK_APK=1"/>
+									<listOptionValue builtIn="false" value="BUILD_FOR_HOST=1"/>
+									<listOptionValue builtIn="false" value="HAS_SPP=1"/>
+									<listOptionValue builtIn="false" value="BTCALLLOG_MAXDOWNLOAD_LIMIT=20"/>
+									<listOptionValue builtIn="false" value="MAXPHONEBOOKNUM_LIMIT=2000"/>
+									<listOptionValue builtIn="false" value="MAX_NUMBER_OF_SPP_INSTANCES=9"/>
+									<listOptionValue builtIn="false" value="HAS_HF=1"/>
+									<listOptionValue builtIn="false" value="HAS_A2DP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HID=0"/>
+									<listOptionValue builtIn="false" value="HAS_OPP=0"/>
+									<listOptionValue builtIn="false" value="HAS_PAN=0"/>
+									<listOptionValue builtIn="false" value="USE_ECAR=1"/>
+									<listOptionValue builtIn="false" value="GOC_DIR=&quot;/data/goc&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_BAUDRATE=921600"/>
+									<listOptionValue builtIn="false" value="DEFAULT_SERIAL=&quot;/dev/ttyS1&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_USB=&quot;/dev/goc_blue&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1939685032" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.6/include"/>
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-9/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\platforms\android-9\arch-arm\usr\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows-x86_64\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.undef.symbols.909602416" name="Undefined Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.undef.symbols"/>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.615329648" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1721905741" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1527951988" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__LINUX__=1"/>
+									<listOptionValue builtIn="false" value="__linux__=1"/>
+									<listOptionValue builtIn="false" value="__GNUC__=4"/>
+									<listOptionValue builtIn="false" value="__GNUC_MINOR__=8"/>
+									<listOptionValue builtIn="false" value="BT_CONF_PATH=&quot;/data/goc/bt_conf.ini&quot;"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_A2DP_AUDIOTRACK_APK=1"/>
+									<listOptionValue builtIn="false" value="BUILD_FOR_HOST=1"/>
+									<listOptionValue builtIn="false" value="HAS_SPP=1"/>
+									<listOptionValue builtIn="false" value="BTCALLLOG_MAXDOWNLOAD_LIMIT=20"/>
+									<listOptionValue builtIn="false" value="MAXPHONEBOOKNUM_LIMIT=2000"/>
+									<listOptionValue builtIn="false" value="MAX_NUMBER_OF_SPP_INSTANCES=9"/>
+									<listOptionValue builtIn="false" value="HAS_HF=1"/>
+									<listOptionValue builtIn="false" value="HAS_A2DP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HID=0"/>
+									<listOptionValue builtIn="false" value="HAS_OPP=0"/>
+									<listOptionValue builtIn="false" value="HAS_PAN=0"/>
+									<listOptionValue builtIn="false" value="USE_ECAR=1"/>
+									<listOptionValue builtIn="false" value="GOC_DIR=&quot;/data/goc&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_BAUDRATE=921600"/>
+									<listOptionValue builtIn="false" value="DEFAULT_SERIAL=&quot;/dev/ttyS1&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_USB=&quot;/dev/goc_blue&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1225297488" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.6/include"/>
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-9/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\platforms\android-9\arch-arm\usr\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows-x86_64\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.undef.symbols.2090996331" name="Undefined Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.undef.symbols"/>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.2052909194" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.309102690" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1819514702" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__LINUX__=1"/>
+									<listOptionValue builtIn="false" value="__linux__=1"/>
+									<listOptionValue builtIn="false" value="__GNUC__=4"/>
+									<listOptionValue builtIn="false" value="__GNUC_MINOR__=8"/>
+									<listOptionValue builtIn="false" value="BT_CONF_PATH=&quot;/data/goc/bt_conf.ini&quot;"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_A2DP_AUDIOTRACK_APK=1"/>
+									<listOptionValue builtIn="false" value="BUILD_FOR_HOST=1"/>
+									<listOptionValue builtIn="false" value="HAS_SPP=1"/>
+									<listOptionValue builtIn="false" value="BTCALLLOG_MAXDOWNLOAD_LIMIT=20"/>
+									<listOptionValue builtIn="false" value="MAXPHONEBOOKNUM_LIMIT=2000"/>
+									<listOptionValue builtIn="false" value="MAX_NUMBER_OF_SPP_INSTANCES=9"/>
+									<listOptionValue builtIn="false" value="HAS_HF=1"/>
+									<listOptionValue builtIn="false" value="HAS_A2DP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HID=0"/>
+									<listOptionValue builtIn="false" value="HAS_OPP=0"/>
+									<listOptionValue builtIn="false" value="HAS_PAN=0"/>
+									<listOptionValue builtIn="false" value="USE_ECAR=1"/>
+									<listOptionValue builtIn="false" value="GOC_DIR=&quot;/data/goc&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_BAUDRATE=921600"/>
+									<listOptionValue builtIn="false" value="DEFAULT_SERIAL=&quot;/dev/ttyS1&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_USB=&quot;/dev/goc_blue&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1276327335" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.6/include"/>
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-9/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\platforms\android-9\arch-arm\usr\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows-x86_64\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.undef.symbols.46340496" name="Undefined Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.undef.symbols"/>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1855363988" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="applications/mutex|single" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="0.217998020.169040031.1409319862">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.217998020.169040031.1409319862" moduleId="org.eclipse.cdt.core.settings" name="FLYAUDIO">
+				<externalSettings>
+					<externalSetting/>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="FLYAUDIO" id="0.217998020.169040031.1409319862" name="FLYAUDIO" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.217998020.169040031.1409319862." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1962482897" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1962482897.667867052" name=""/>
+							<builder buildPath="${workspace_loc:/GocSdk}" cleanBuildTarget="clean" enableCleanBuild="false" id="com.android.builder.1262453893" incrementalBuildTarget=" -j 4" keepEnvironmentInBuildfile="false" name="Android Builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name=""/>
+								</outputEntries>
+							</builder>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.245982701" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1857132695" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.80946998" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG=1"/>
+									<listOptionValue builtIn="false" value="HF_PHONEBOOK=1"/>
+									<listOptionValue builtIn="false" value="_INCLUDE_AV_MODULE_=1"/>
+									<listOptionValue builtIn="false" value="DEBUG_PRINT=1"/>
+									<listOptionValue builtIn="false" value="NDK_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="USB=0"/>
+									<listOptionValue builtIn="false" value="BUILD=HCI"/>
+									<listOptionValue builtIn="false" value="HOST_TRANSPORT_BCSP=1"/>
+									<listOptionValue builtIn="false" value="EXCLUDE_BNEP_MODULE=1"/>
+									<listOptionValue builtIn="false" value="INSTALL_RFCOMM_MODULE=1"/>
+									<listOptionValue builtIn="false" value="STACK_ON_HOST=1"/>
+									<listOptionValue builtIn="false" value="ENABLE_SHUTDOWN=1"/>
+									<listOptionValue builtIn="false" value="EXCLUDE_EXCEPTION_HANDLER_MODULE=1"/>
+									<listOptionValue builtIn="false" value="RING_LOCAL=1"/>
+									<listOptionValue builtIn="false" value="USE_FILEDUMP=1"/>
+									<listOptionValue builtIn="false" value="VERSION=2.3.4"/>
+									<listOptionValue builtIn="false" value="ANDROID_2_3=1"/>
+									<listOptionValue builtIn="false" value="USE_SBC=1"/>
+									<listOptionValue builtIn="false" value="LOGCAT=1"/>
+									<listOptionValue builtIn="false" value="__linux__=1"/>
+									<listOptionValue builtIn="false" value="MAITE=1"/>
+									<listOptionValue builtIn="false" value="VIRTUAL_SERIAL=&quot;/dev/goc_serial&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_SERIAL=&quot;/dev/ttyS1&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_BAUDRATE=921600"/>
+									<listOptionValue builtIn="false" value="GOC_DIR=&quot;/data/goc&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_PATH=&quot;/system/config.ini&quot;"/>
+									<listOptionValue builtIn="false" value="BT_CONF_PATH=&quot;/data/goc/bt_conf.ini&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_PAIR_KEY=&quot;0000&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_LOCAL_NAME=&quot;GocAndroid&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_RING_PATH=&quot;/system/ring.mp3&quot;"/>
+									<listOptionValue builtIn="false" value="EXCHANGE_SERIAL=0"/>
+									<listOptionValue builtIn="false" value="HIGH_PRIORITY=1"/>
+									<listOptionValue builtIn="false" value="HID_TOUCH=0"/>
+									<listOptionValue builtIn="false" value="BTCALLLOG_MAXDOWNLOAD_LIMIT=20"/>
+									<listOptionValue builtIn="false" value="MAXPHONEBOOKNUM_LIMIT=2000"/>
+									<listOptionValue builtIn="false" value="DEBUG_PANIC_ON_PUT_TO_NULL_QUEUE=1"/>
+									<listOptionValue builtIn="false" value="DBG_IO=0"/>
+									<listOptionValue builtIn="false" value="MAX_NUMBER_OF_SPP_INSTANCES=9"/>
+									<listOptionValue builtIn="false" value="HAS_HID_ADJUST=0"/>
+									<listOptionValue builtIn="false" value="HAS_CHANGE_SERIAL=0"/>
+									<listOptionValue builtIn="false" value="USE_API=0"/>
+									<listOptionValue builtIn="false" value="HAS_AVRCP_INFO=1"/>
+									<listOptionValue builtIn="false" value="CMD_HF_IDLE=0"/>
+									<listOptionValue builtIn="false" value="CMD_HF_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_HF_CONNECTING=2"/>
+									<listOptionValue builtIn="false" value="CMD_HF_CONNECTED=3"/>
+									<listOptionValue builtIn="false" value="CMD_HF_OUTGOING=4"/>
+									<listOptionValue builtIn="false" value="CMD_HF_INCOMING=5"/>
+									<listOptionValue builtIn="false" value="CMD_HF_TALKING=6"/>
+									<listOptionValue builtIn="false" value="CMD_AV_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_AV_CONNECTED=2"/>
+									<listOptionValue builtIn="false" value="CMD_AV_STREAMING=3"/>
+									<listOptionValue builtIn="false" value="CMD_AVRCP_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_AVRCP_CONNECTED=2"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_IDLE=0"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_PHONE=1"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_SIM=2"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_OUTGOING=3"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_MISSING=4"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_INCOMMING=5"/>
+									<listOptionValue builtIn="false" value="CMD_HID_DISCONNECTED=0"/>
+									<listOptionValue builtIn="false" value="CMD_HID_CONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_PAN_DISCONNECTED=0"/>
+									<listOptionValue builtIn="false" value="CMD_PAN_CONNECTED=1"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_SCO_CHANNEL=0"/>
+									<listOptionValue builtIn="false" value="GOC_SYSTEM_DELAY=1"/>
+									<listOptionValue builtIn="false" value="IS_AUTO_CONNECT=0"/>
+									<listOptionValue builtIn="false" value="IS_ADD_MIC_GAIN=0"/>
+									<listOptionValue builtIn="false" value="BCHS_RUN_STACK=1"/>
+									<listOptionValue builtIn="false" value="BCHS_RUN_APP=1"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_AEC_OPENSLES=0"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_AEC_AUDIOTRACK=0"/>
+									<listOptionValue builtIn="false" value="USE_NEON=0"/>
+									<listOptionValue builtIn="false" value="HAS_MAP=0"/>
+									<listOptionValue builtIn="false" value="GOC_NO_FORK=0"/>
+									<listOptionValue builtIn="false" value="HAVE_BLE=0"/>
+									<listOptionValue builtIn="false" value="HCI_USB=1"/>
+									<listOptionValue builtIn="false" value="HCI_BCSP=0"/>
+									<listOptionValue builtIn="false" value="HCI_H5=0"/>
+									<listOptionValue builtIn="false" value="DEFAULT_USB=&quot;/dev/goc_blue&quot;"/>
+									<listOptionValue builtIn="false" value="BUILD_FOR_HOST=1"/>
+									<listOptionValue builtIn="false" value="__GNUC__=4"/>
+									<listOptionValue builtIn="false" value="__GNUC_MINOR__=8"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_A2DP_AUDIOTRACK_APK=1"/>
+									<listOptionValue builtIn="false" value="HAS_SPP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HF=1"/>
+									<listOptionValue builtIn="false" value="HAS_A2DP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HID=0"/>
+									<listOptionValue builtIn="false" value="HAS_OPP=0"/>
+									<listOptionValue builtIn="false" value="HAS_PAN=0"/>
+									<listOptionValue builtIn="false" value="USE_ECAR=1"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.291381151" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.6/include"/>
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-9/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20130514\android-ndk-r8e\toolchains\x86-4.6\prebuilt\windows\lib\gcc\i686-linux-android\4.6\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\platforms\android-9&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows-x86_64\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1857333906" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1372626237" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1304556533" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG=1"/>
+									<listOptionValue builtIn="false" value="HF_PHONEBOOK=1"/>
+									<listOptionValue builtIn="false" value="_INCLUDE_AV_MODULE_=1"/>
+									<listOptionValue builtIn="false" value="DEBUG_PRINT=1"/>
+									<listOptionValue builtIn="false" value="NDK_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="__LINUX__=1"/>
+									<listOptionValue builtIn="false" value="USB=0"/>
+									<listOptionValue builtIn="false" value="BUILD=HCI"/>
+									<listOptionValue builtIn="false" value="HOST_TRANSPORT_BCSP=1"/>
+									<listOptionValue builtIn="false" value="EXCLUDE_BNEP_MODULE=1"/>
+									<listOptionValue builtIn="false" value="INSTALL_RFCOMM_MODULE=1"/>
+									<listOptionValue builtIn="false" value="STACK_ON_HOST=1"/>
+									<listOptionValue builtIn="false" value="ENABLE_SHUTDOWN=1"/>
+									<listOptionValue builtIn="false" value="EXCLUDE_EXCEPTION_HANDLER_MODULE=1"/>
+									<listOptionValue builtIn="false" value="RING_LOCAL=1"/>
+									<listOptionValue builtIn="false" value="USE_FILEDUMP=1"/>
+									<listOptionValue builtIn="false" value="USE_SBC=1"/>
+									<listOptionValue builtIn="false" value="LOGCAT=1"/>
+									<listOptionValue builtIn="false" value="__linux__=1"/>
+									<listOptionValue builtIn="false" value="MAITE=1"/>
+									<listOptionValue builtIn="false" value="VIRTUAL_SERIAL=&quot;/dev/goc_serial&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_LOCAL_NAME=&quot;GocAndroid&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_SERIAL=&quot;/dev/ttyS1&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_BAUDRATE=921600"/>
+									<listOptionValue builtIn="false" value="GOC_DIR=&quot;/data/goc&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_PATH=&quot;/system/config.ini&quot;"/>
+									<listOptionValue builtIn="false" value="BT_CONF_PATH=&quot;/data/goc/bt_conf.ini&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_RING_PATH=&quot;/system/ring.mp3&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_PAIR_KEY=&quot;0000&quot;"/>
+									<listOptionValue builtIn="false" value="EXCHANGE_SERIAL=0"/>
+									<listOptionValue builtIn="false" value="HIGH_PRIORITY=1"/>
+									<listOptionValue builtIn="false" value="HID_TOUCH=0"/>
+									<listOptionValue builtIn="false" value="BTCALLLOG_MAXDOWNLOAD_LIMIT=20"/>
+									<listOptionValue builtIn="false" value="MAXPHONEBOOKNUM_LIMIT=2000"/>
+									<listOptionValue builtIn="false" value="DEBUG_PANIC_ON_PUT_TO_NULL_QUEUE=1"/>
+									<listOptionValue builtIn="false" value="DBG_IO=0"/>
+									<listOptionValue builtIn="false" value="MAX_NUMBER_OF_SPP_INSTANCES=9"/>
+									<listOptionValue builtIn="false" value="HAS_HID_ADJUST=0"/>
+									<listOptionValue builtIn="false" value="HAS_CHANGE_SERIAL=0"/>
+									<listOptionValue builtIn="false" value="USE_API=0"/>
+									<listOptionValue builtIn="false" value="HAS_AVRCP_INFO=1"/>
+									<listOptionValue builtIn="false" value="CMD_HF_IDLE=0"/>
+									<listOptionValue builtIn="false" value="CMD_HF_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_HF_CONNECTING=2"/>
+									<listOptionValue builtIn="false" value="CMD_HF_CONNECTED=3"/>
+									<listOptionValue builtIn="false" value="CMD_HF_OUTGOING=4"/>
+									<listOptionValue builtIn="false" value="CMD_HF_INCOMING=5"/>
+									<listOptionValue builtIn="false" value="CMD_HF_TALKING=6"/>
+									<listOptionValue builtIn="false" value="CMD_AV_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_AV_CONNECTED=2"/>
+									<listOptionValue builtIn="false" value="CMD_AV_STREAMING=3"/>
+									<listOptionValue builtIn="false" value="CMD_AVRCP_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_AVRCP_CONNECTED=2"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_IDLE=0"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_PHONE=1"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_SIM=2"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_OUTGOING=3"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_MISSING=4"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_INCOMMING=5"/>
+									<listOptionValue builtIn="false" value="CMD_HID_DISCONNECTED=0"/>
+									<listOptionValue builtIn="false" value="CMD_HID_CONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_PAN_DISCONNECTED=0"/>
+									<listOptionValue builtIn="false" value="CMD_PAN_CONNECTED=1"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_SCO_CHANNEL=0"/>
+									<listOptionValue builtIn="false" value="GOC_SYSTEM_DELAY=1"/>
+									<listOptionValue builtIn="false" value="IS_AUTO_CONNECT=0"/>
+									<listOptionValue builtIn="false" value="IS_ADD_MIC_GAIN=0"/>
+									<listOptionValue builtIn="false" value="BCHS_RUN_STACK=1"/>
+									<listOptionValue builtIn="false" value="BCHS_RUN_APP=1"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_AEC_OPENSLES=0"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_AEC_AUDIOTRACK=0"/>
+									<listOptionValue builtIn="false" value="USE_NEON=0"/>
+									<listOptionValue builtIn="false" value="HAS_MAP=0"/>
+									<listOptionValue builtIn="false" value="GOC_NO_FORK=0"/>
+									<listOptionValue builtIn="false" value="HAVE_BLE=0"/>
+									<listOptionValue builtIn="false" value="HCI_USB=1"/>
+									<listOptionValue builtIn="false" value="HCI_BCSP=0"/>
+									<listOptionValue builtIn="false" value="HCI_H5=0"/>
+									<listOptionValue builtIn="false" value="DEFAULT_USB=&quot;/dev/goc_blue&quot;"/>
+									<listOptionValue builtIn="false" value="BUILD_FOR_HOST=1"/>
+									<listOptionValue builtIn="false" value="__GNUC__=4"/>
+									<listOptionValue builtIn="false" value="__GNUC_MINOR__=8"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_A2DP_AUDIOTRACK_APK=1"/>
+									<listOptionValue builtIn="false" value="HAS_SPP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HF=1"/>
+									<listOptionValue builtIn="false" value="HAS_A2DP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HID=0"/>
+									<listOptionValue builtIn="false" value="HAS_OPP=0"/>
+									<listOptionValue builtIn="false" value="HAS_PAN=0"/>
+									<listOptionValue builtIn="false" value="USE_ECAR=1"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1978995680" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.6/include"/>
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-9/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20130514\android-ndk-r8e\toolchains\x86-4.6\prebuilt\windows\lib\gcc\i686-linux-android\4.6\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\platforms\android-9&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows-x86_64\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.904978308" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.81143095" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.355315538" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG=1"/>
+									<listOptionValue builtIn="false" value="HF_PHONEBOOK=1"/>
+									<listOptionValue builtIn="false" value="_INCLUDE_AV_MODULE_=1"/>
+									<listOptionValue builtIn="false" value="DEBUG_PRINT=1"/>
+									<listOptionValue builtIn="false" value="NDK_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="__LINUX__=1"/>
+									<listOptionValue builtIn="false" value="USB=0"/>
+									<listOptionValue builtIn="false" value="BUILD=HCI"/>
+									<listOptionValue builtIn="false" value="HOST_TRANSPORT_BCSP=1"/>
+									<listOptionValue builtIn="false" value="EXCLUDE_BNEP_MODULE=1"/>
+									<listOptionValue builtIn="false" value="INSTALL_RFCOMM_MODULE=1"/>
+									<listOptionValue builtIn="false" value="STACK_ON_HOST=1"/>
+									<listOptionValue builtIn="false" value="ENABLE_SHUTDOWN=1"/>
+									<listOptionValue builtIn="false" value="EXCLUDE_EXCEPTION_HANDLER_MODULE=1"/>
+									<listOptionValue builtIn="false" value="RING_LOCAL=1"/>
+									<listOptionValue builtIn="false" value="USE_FILEDUMP=1"/>
+									<listOptionValue builtIn="false" value="USE_SBC=1"/>
+									<listOptionValue builtIn="false" value="LOGCAT=1"/>
+									<listOptionValue builtIn="false" value="__linux__=1"/>
+									<listOptionValue builtIn="false" value="MAITE=1"/>
+									<listOptionValue builtIn="false" value="VIRTUAL_SERIAL=&quot;/dev/goc_serial&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_LOCAL_NAME=&quot;GocAndroid&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_SERIAL=&quot;/dev/ttyS1&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_BAUDRATE=921600"/>
+									<listOptionValue builtIn="false" value="GOC_DIR=&quot;/data/goc&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_PATH=&quot;/system/config.ini&quot;"/>
+									<listOptionValue builtIn="false" value="BT_CONF_PATH=&quot;/data/goc/bt_conf.ini&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_RING_PATH=&quot;/system/ring.mp3&quot;"/>
+									<listOptionValue builtIn="false" value="DEFAULT_PAIR_KEY=&quot;0000&quot;"/>
+									<listOptionValue builtIn="false" value="EXCHANGE_SERIAL=0"/>
+									<listOptionValue builtIn="false" value="HIGH_PRIORITY=1"/>
+									<listOptionValue builtIn="false" value="HID_TOUCH=0"/>
+									<listOptionValue builtIn="false" value="BTCALLLOG_MAXDOWNLOAD_LIMIT=20"/>
+									<listOptionValue builtIn="false" value="MAXPHONEBOOKNUM_LIMIT=2000"/>
+									<listOptionValue builtIn="false" value="DEBUG_PANIC_ON_PUT_TO_NULL_QUEUE=1"/>
+									<listOptionValue builtIn="false" value="UART_NO_DELAY=1"/>
+									<listOptionValue builtIn="false" value="DBG_IO=0"/>
+									<listOptionValue builtIn="false" value="MAX_NUMBER_OF_SPP_INSTANCES=9"/>
+									<listOptionValue builtIn="false" value="HAS_HID_ADJUST=0"/>
+									<listOptionValue builtIn="false" value="HAS_CHANGE_SERIAL=0"/>
+									<listOptionValue builtIn="false" value="USE_API=0"/>
+									<listOptionValue builtIn="false" value="HAS_AVRCP_INFO=1"/>
+									<listOptionValue builtIn="false" value="CMD_HF_IDLE=0"/>
+									<listOptionValue builtIn="false" value="CMD_HF_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_HF_CONNECTING=2"/>
+									<listOptionValue builtIn="false" value="CMD_HF_CONNECTED=3"/>
+									<listOptionValue builtIn="false" value="CMD_HF_OUTGOING=4"/>
+									<listOptionValue builtIn="false" value="CMD_HF_INCOMING=5"/>
+									<listOptionValue builtIn="false" value="CMD_HF_TALKING=6"/>
+									<listOptionValue builtIn="false" value="CMD_AV_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_AV_CONNECTED=2"/>
+									<listOptionValue builtIn="false" value="CMD_AV_STREAMING=3"/>
+									<listOptionValue builtIn="false" value="CMD_AVRCP_DISCONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_AVRCP_CONNECTED=2"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_IDLE=0"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_PHONE=1"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_SIM=2"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_OUTGOING=3"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_MISSING=4"/>
+									<listOptionValue builtIn="false" value="CMD_PHONEBOOK_INCOMMING=5"/>
+									<listOptionValue builtIn="false" value="CMD_HID_DISCONNECTED=0"/>
+									<listOptionValue builtIn="false" value="CMD_HID_CONNECTED=1"/>
+									<listOptionValue builtIn="false" value="CMD_PAN_DISCONNECTED=0"/>
+									<listOptionValue builtIn="false" value="CMD_PAN_CONNECTED=1"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_SCO_CHANNEL=0"/>
+									<listOptionValue builtIn="false" value="GOC_SYSTEM_DELAY=1"/>
+									<listOptionValue builtIn="false" value="IS_AUTO_CONNECT=0"/>
+									<listOptionValue builtIn="false" value="IS_ADD_MIC_GAIN=0"/>
+									<listOptionValue builtIn="false" value="BCHS_RUN_STACK=1"/>
+									<listOptionValue builtIn="false" value="BCHS_RUN_APP=1"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_AEC_OPENSLES=0"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_AEC_AUDIOTRACK=0"/>
+									<listOptionValue builtIn="false" value="USE_NEON=0"/>
+									<listOptionValue builtIn="false" value="HAS_MAP=0"/>
+									<listOptionValue builtIn="false" value="GOC_NO_FORK=0"/>
+									<listOptionValue builtIn="false" value="HAVE_BLE=0"/>
+									<listOptionValue builtIn="false" value="HCI_USB=1"/>
+									<listOptionValue builtIn="false" value="HCI_BCSP=0"/>
+									<listOptionValue builtIn="false" value="HCI_H5=0"/>
+									<listOptionValue builtIn="false" value="DEFAULT_USB=&quot;/dev/goc_blue&quot;"/>
+									<listOptionValue builtIn="false" value="BUILD_FOR_HOST=1"/>
+									<listOptionValue builtIn="false" value="__GNUC__=4"/>
+									<listOptionValue builtIn="false" value="__GNUC_MINOR__=8"/>
+									<listOptionValue builtIn="false" value="IS_SWITCH_A2DP_AUDIOTRACK_APK=1"/>
+									<listOptionValue builtIn="false" value="HAS_SPP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HF=1"/>
+									<listOptionValue builtIn="false" value="HAS_A2DP=1"/>
+									<listOptionValue builtIn="false" value="HAS_HID=0"/>
+									<listOptionValue builtIn="false" value="HAS_OPP=0"/>
+									<listOptionValue builtIn="false" value="HAS_PAN=0"/>
+									<listOptionValue builtIn="false" value="USE_ECAR=1"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1591103579" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.6/include"/>
+									<listOptionValue builtIn="false" value="D:/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-9/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20130514\android-ndk-r8e\toolchains\x86-4.6\prebuilt\windows\lib\gcc\i686-linux-android\4.6\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\platforms\android-9&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\adt-bundle-windows-x86-20140702\android-ndk-r10\toolchains\arm-linux-androideabi-4.8\prebuilt\windows-x86_64\lib\gcc\arm-linux-androideabi\4.8\include&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1003068920" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="applications/mutex|single" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Test.null.66343103" name="Test"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/jni"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.217998020">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.217998020.169040031">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.217998020.169040031.1409319862">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

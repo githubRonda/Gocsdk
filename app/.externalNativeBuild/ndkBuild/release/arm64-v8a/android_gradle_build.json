@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\android\\as\\projects\\Gocsdk\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\android\\as\\as_sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\android\\as\\projects\\Gocsdk\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/android/as/projects/Gocsdk/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\android\\as\\projects\\Gocsdk\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "serial_goc-release-arm64-v8a": {
+      "buildCommand": "D:\\android\\as\\as_sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\android\\as\\projects\\Gocsdk\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/android/as/projects/Gocsdk/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\android\\as\\projects\\Gocsdk\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/android/as/projects/Gocsdk/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libserial_goc.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "serial_goc",
+      "files": [
+        {
+          "src": "D:\\android\\as\\projects\\Gocsdk\\app\\src\\main\\jni\\SerialPort.c",
+          "flags": "\"-gcc-toolchain\" \"D:/android/as/as_sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/android/as/projects/Gocsdk/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"D:/android/as/as_sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"D:/android/as/as_sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android\""
+        }
+      ],
+      "output": "D:\\android\\as\\projects\\Gocsdk\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libserial_goc.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "D:\\android\\as\\as_sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

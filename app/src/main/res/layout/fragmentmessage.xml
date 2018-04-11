@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_message_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_message_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="收件箱" />
+
+        <Button
+            android:id="@+id/btn_message_out"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="发送箱" />
+
+        <Button
+            android:id="@+id/btn_message_rubbish"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="垃圾箱" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/lv_message_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:visibility="visible">
+        </ListView>
+
+        <RelativeLayout
+            android:id="@+id/rl_message_out"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_write_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal"
+                android:text="写短信" />
+
+            <ListView
+                android:id="@+id/lv_message_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btn_write_message" >
+            </ListView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_write_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_return"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="2"
+                    android:text="返回" />
+
+                <EditText
+                    android:id="@+id/et_addressee"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="6"
+                    android:hint="收件人" />
+
+                <Button
+                    android:id="@+id/btn_select_contact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="联系人" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="发送" />
+
+            <EditText
+                android:id="@+id/et_message_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btn_send"
+                android:hint="请输入短信内容" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_select_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+        </ListView>
+
+        <RelativeLayout
+            android:id="@+id/rl_message_detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/ll_message_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_detail_return"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="2"
+                    android:text="返回" />
+
+                <LinearLayout
+                    android:id="@+id/ll_addressee_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_addressee_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="收件人"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_addressee_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="收件号码"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_other"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="其他功能" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_send_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="发送" />
+
+            <EditText
+                android:id="@+id/et_answer_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/btn_send_answer"/>
+
+            <ScrollView
+                android:id="@+id/sv_message_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/et_answer_message"
+                android:layout_below="@+id/ll_message_head" >
+
+                <TextView
+                    android:id="@+id/tv_message_detail_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。收到短信了。收到短信了。
+                收到短信了。收到短信了。" />
+            </ScrollView>
+        </RelativeLayout>
+        
+        
+        <ListView 
+            android:id="@+id/lv_rubbish_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+        </ListView>
+    </FrameLayout>
+</LinearLayout>
